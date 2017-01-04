@@ -2,7 +2,7 @@ body{
 	margin: 0;	
 }
 .logo{
-	width: 60%;
+	width: 65%;
 	height: auto;
 	margin: 0 auto;
 	padding: 1em;
@@ -18,13 +18,17 @@ body{
 }
 #calendar{
 	width: 100%;
-	margin-top: 108em;
+	margin-top: 175em;
+	border:2px red;
 }
 #donate{
-	margin-top: 96em;
+	width: 100%;
+	margin-top: 271em;
 }
 #contact{
-	margin-top: 43em;
+	width: 100%;
+	margin-top: 314em;
+/*	border:2px red solid;*/
 }
 /* Navigation
 ------------------------------------------*/
@@ -118,36 +122,22 @@ footer {
 @media screen and (max-width: 600px) {
 
 .wrapper{
-		background-image:url(../img/ipad-version.jpg);
+		background-image:url(../img/iphone-size.jpg);
 		/*width: 80%;*/
 		background-size: cover;
 		background-position:center;
-		height: 1484px;
+		height: 3640px;
 	}
-/*.container{
+.container{
 		display: none;
 }
-*/#about{
-	width:100%;
-	/*margin-top: 18em;*/
+
+nav ul li{
+	display: none;
 }
-#order{
-	width:100%;
-	margin-top: 17em;
+nav{
+	display: none !important;
 }
-#calendar{
-	width: 100%;
-	margin-top: 28em;
-}
-#donate{
-	margin-top: 26em;
-}
-#contact{
-	margin-top: 11em;
-}
-nav ul li a{
-	padding: .5em 1em;	
-	}
 
 }
 
