@@ -119,7 +119,7 @@ footer {
 }
 	
 
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
 .wrapper{
 		background-image:url(../img/iphone-version2.jpg);
@@ -139,25 +139,4 @@ nav{
 	display: none !important;
 }
 
-}*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait){
-	.wrapper{
-			background-image:url(../img/iphone-version2.jpg);
-			padding: 0em;
-			/*width: 80%;*/
-			background-size: cover;
-			background-position:center;
-			height: 3640px;
-		}
-	.container{
-			display: none;
-	}
-
-	nav ul li{
-		display: none;
-	}
-	nav{
-		display: none !important;
-	}	
 }
