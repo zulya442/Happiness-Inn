@@ -123,11 +123,10 @@ footer {
 
 .wrapper{
 		background-image:url(../img/iphone-version2.jpg);
-		padding: 0em;
+		padding: 0em !important;
 		background-size: cover;
 		background-position:center;
 		height: 3640px;
-		margin: 3em;
 	}
 .container{
 		display: none;
