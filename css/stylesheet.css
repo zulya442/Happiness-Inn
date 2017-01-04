@@ -127,6 +127,7 @@ footer {
 		background-size: cover;
 		background-position:center;
 		height: 3640px;
+		margin: 3em;
 	}
 .container{
 		display: none;
@@ -137,9 +138,6 @@ nav ul li{
 }
 nav{
 	display: none !important;
-}
-body{
-	margin: 3em;	
 }
 
 }
