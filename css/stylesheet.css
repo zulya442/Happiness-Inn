@@ -138,5 +138,8 @@ nav ul li{
 nav{
 	display: none !important;
 }
+body{
+	margin: 3em;	
+}
 
 }
