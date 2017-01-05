@@ -122,7 +122,7 @@ footer {
 @media screen and (max-width: 600px) {
 
 .wrapper{
-		background-image:url(../img/iphone-version2.jpg);
+		background-image:url(../img/iphone-version.jpg);
 		/*padding: 0 !important;*/
 		background-size: cover;
 		background-position:center;
