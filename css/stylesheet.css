@@ -139,23 +139,4 @@ nav{
 	display: none !important;
 }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-      .wrapper{
-		background-image:url(../img/ipad-version.jpg);
-		/*padding: 0 !important;*/
-		background-size: cover;
-		background-position:center;
-		height: 2815px;
-	}
-	.container{
-		display: none;
-	}
-
-	nav ul li{
-	display: none;
-	}
-	nav{
-	display: none !important;
-	}
-   }
 
